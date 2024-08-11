@@ -1,0 +1,117 @@
+.v-author{
+    position: relative;
+    display: inline-block;
+}
+
+
+.channel-card{
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    height: 150px;
+    width: 250px;
+    opacity: 0%;
+    transition: opacity 0.15s;
+    z-index: 3000;
+    font-family: roboto;
+}   
+
+
+.v-author:hover .channel-card{
+    opacity: 95%;
+}
+
+.channel-icon-card{
+
+width: 50px;
+height: 50px;
+position: absolute;
+top: 18px;
+left: 10px;
+object-fit: cover;
+border: solid 3px rgb(12, 120, 130) ;
+box-shadow: 0 0 3px rgb(243, 243, 243);
+cursor: pointer;
+
+}
+
+
+.channel-name-card{
+    color: white;
+    margin-left: 78px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+
+.sub-count-card{
+    color: rgba(255, 255, 255, 0.844);
+    margin-left: 78px;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+    .video-count{
+        color: rgba(255, 255, 255, 0.795);
+        font-size: 16px;
+        margin-left: 78px;
+        margin-top: 6px;
+        margin-bottom:12px;
+    }
+
+    .joinbutton{
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 68px;
+        background-color: rgb(43, 100, 233);
+        width: 60px;
+        height: 30px;
+        border-radius: 25px;
+        border: none;       
+        cursor: pointer; 
+        transition: box-shadow .15s;
+    }
+
+    .joinbutton:hover{
+        background-color: rgb(34, 80, 188);
+        box-shadow: 2px 2px 7px rgba(0, 102, 197, 0.293);
+
+    }
+
+    .joinbutton:active{
+        background-color: rgb(24, 66, 164);
+    
+
+    }
+    .sub-button{
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 8px;
+        background-color: rgb(207, 6, 6);
+        width: 100px;
+        height: 30px;
+        border-radius: 25px;
+        border: none;       
+        cursor: pointer; 
+        transition: box-shadow .15s;
+    }
+
+    .sub-button:hover{
+        background-color: rgb(171, 5, 5);
+        box-shadow: 2px 2px 6px rgba(171, 5, 5, 0.447); ;
+        
+    }
+
+    .sub-button:active{
+        background-color: rgb(122, 4, 4);
+        
+        
+    }
+
+.vid-container{
+    position: relative;
+}

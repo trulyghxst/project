@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    
+}
+p{
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pht{
+    width: 100%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    transition: box-shadow 0.35s;
+    transition: border-radius 0.80s;
+    transition: filter 0.20s;
+    border-radius: 12px;
+    
+}
+
+.pht:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.252);
+    border-radius: 3px;
+    filter: brightness(83%);
+}
+
+.channel-icon{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+
+
+.channel-icon-container{
+    vertical-align: top;
+ }   
+
+ .total-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px; }
+    
+    @media (max-width: 750px) {
+        .total-grid{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (min-width: 1500px) {
+        .total-grid{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+
+
+    .vid-grid{
+
+        display: grid;
+        grid-template-columns: 50px 1fr;
+       
+
+    }
+
+
+.video-title{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 7px;
+
+}
+
+.video-title:hover{
+    cursor: pointer;
+}
+
+.v-author, .v-stat{
+    font-size: 16px;
+    color: rgba(32, 31, 31, 0.89);
+    margin-top: 5px;
+
+}
+
+.v-author:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+.srch{
+    width: 300px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    font-size: 16px;
+    margin-left: 20px;
+    display: block;
+    
+}
+.srch:hover{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.241);
+}
+
+.search-button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 16px;
+    
+    
+}   
+
+
+.channel-icon:hover{
+
+    cursor: pointer;
+}
+
+
+.containrr{
+    position: relative;
+}
+
+.video-time{
+    position: absolute;
+    bottom: 22px;
+    right: 8px;
+    background-color: black;
+    color: white;
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    
+
+}
+
+
+

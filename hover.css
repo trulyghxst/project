@@ -1,0 +1,82 @@
+.upload-icon:hover{
+    filter: drop-shadow(2px 3px 8px rgba(0, 0, 0, 0.46));
+}
+
+.apps-icon:hover{
+    filter: drop-shadow(2px 3px 8px rgba(0, 0, 0, 0.46));
+
+}
+
+.notif-icon:hover{
+    filter: drop-shadow(2px 3px 8px rgba(0, 0, 0, 0.46));
+}
+
+.hamburger-menu:hover{
+    filter: drop-shadow(2px 3px 8px rgba(0, 0, 0, 0.46));
+
+}
+
+.youtube-logo:hover{
+    filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.199));
+}
+
+.search-butt:hover{
+    background-color: rgb(228, 228, 228)
+}
+
+.search-butt:active{
+    background-color: rgb(210, 210, 210)
+}
+
+
+.voice-butt:hover{
+    background-color: rgb(228, 228, 228)
+
+}
+
+.voice-butt:active{
+    background-color: rgb(210, 210, 210)
+}
+
+.search-in:focus{
+
+    outline: none;
+    border-color: lightblue;
+}
+
+.sidebar-link:hover{
+    background-color: rgba(211, 211, 211, 0.57);
+}
+
+
+.upload-tooltip-positioner:hover .upload-tooltip,
+.apps-tooltip-positioner:hover .apps-tooltip
+{
+    opacity: 80%;
+}
+
+
+
+.notif-pos:hover .notifications-tooltip{
+    opacity: 80%;
+}
+
+
+.notif-pos:hover .notif-count{
+    background-color: black;
+}
+
+.voice-butt:hover .voice-tooltip{
+
+    opacity: 80%;
+}
+
+.search-butt:hover .search-tooltip{
+
+    opacity: 80%;
+}
+
+.search-butt:active .search-tooltip{
+    font-weight: bold;
+}
+
