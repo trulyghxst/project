@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--FONT-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="icon" href="stock/youtube-logo-png-2074.png" sizes="300px">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="authorcard.css">
+
+</head>
+<body>
+
+
+    <!--Header Elements-->
+        <div class="header">
+
+            <div class="left-sec"> 
+                <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+                <img src="stock/youtube-logo.svg" alt="YOUTUBE" class="youtube-logo">
+            
+            </div>
+            <div class="middle-sec">
+                <input type="text" placeholder="Search" class="search-in">
+                <button class="search-butt"> <img src="icons/search.svg" class="search-butt-img">
+                    <div class="search-tooltip">Search</div>
+                </button>
+                <button class="voice-butt"> <img src="icons/voice-search-icon.svg" class="voice-butt-img">
+                 <div class="voice-tooltip">Search with your voice</div>
+                </button>
+            </div> 
+            <div class="right-sec">
+                    <div class="upload-tooltip-positioner">
+                <img src="icons/upload.svg" class="upload-icon"> 
+                <div class="upload-tooltip">Upload</div>   
+            </div>
+                <div class="apps-tooltip-positioner">
+                <img src="icons/youtube-apps.svg" class="apps-icon">
+                    <div class="apps-tooltip">Apps</div>
+            </div>
+                <div class="notif-pos">
+                        
+                <img src="icons/notifications.svg" class="notif-icon">
+                <div class="notif-count">6</div>
+
+                <div class="notifications-tooltip">Notifications</div>
+                </div>
+                    
+                <img src="stock/11.jpg" class="current-user-pic">
+            
+            </div>
+            
+
+        </div>
+
+
+        <!--Sidebar Elements-->
+        <div class="side-bar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg"> <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg"> <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg"> <div>Subscription</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg"> <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg"> <div>Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg"> <div>Library</div>
+            </div>
+
+        </div>
+        
+    <!--Body Elements-->
+        <div class="inside-page">
+
+        <div class="total-grid">
+                  <!--VID 1 ............................... -->
+                    <div class="vid-container">
+
+<div class="containrr">
+<img class="pht" src="stock/1.jpg" alt="">
+    <div class="video-time">14:20</div>
+</div>
+                        
+                        <div class="vid-grid">
+                        <div class="channel-icon-container">
+                         <img src="stock/11.jpg" class="channel-icon"> 
+                        </div>
+
+                        <div class="video-info">
+<p class="video-title"> NEW YORK: THE CITY THAT NEVER SLEEPS? Exploring NYC | VLOG #38
+</p>
+    <div class="v-author">Roamer
+
+        <div class="channel-card">
+
+            <img src="stock/11.jpg" class="channel-icon-card"> 
+            <p class="channel-name-card">@Roamer</p>
+            <p class="sub-count-card">482K &#xB7; subscribers</p>
+            <p class="video-count">106 &#xB7; videos</p>
+            <button class="joinbutton">Join</button>
+            <button class="sub-button">Subscribe</button>
+
+        </div>
+    </div>
+<p class="v-stat">3.4M views &#183; 6 months ago</p>
+                </div>
+                             </div>
+
+                    </div>
+
+
+
+            <!--VID 2 ............................... -->
+
+                        
+                <div class="vid-container">
+                    <div class="containrr">
+  <img class="pht" src="stock/3.jpg">
+  <div class="video-time">5:20</div>
+</div>
+     <div class="vid-grid">            
+    <div class="channel-icon-container">
+    <img src="stock/18.jpg" class="channel-icon"> 
+    </div>
+
+     <div class="video-info">
+<p class="video-title"> 2024 FALL FASHION TRENDS *NEW this Season!*</p>
+<div class="v-author">Mac-Ten
+
+    <div class="channel-card">
+        <img src="stock/18.jpg" class="channel-icon-card"> 
+            <p class="channel-name-card">@Mac-Ten</p>
+            <p class="sub-count-card">892K &#xB7; subscribers</p>
+            <p class="video-count">210 &#xB7; videos</p>
+            <button class="joinbutton">Join</button>
+            <button class="sub-button">Subscribe</button>
+
+        </div>
+</div>                    
+<p class="v-stat">14.2M views &#183; 9 months ago</p>
+     </div>
+     </div>   
+                </div>
+
+                <!--VID 3............................... -->
+
+ <div class="vid-container">
+
+    <div class="containrr">
+     <img class="pht" src="stock/4.jpg" alt="">
+     <div class="video-time">3:13</div>
+    </div>
+                                            
+     <div class="vid-grid">
+     <div class="channel-icon-container">
+        <img src="stock/2.jpg" class="channel-icon"> 
+        
+        </div>
+                    
+        <div class="video-info">
+       <p class="video-title"> Darker By The Day | Short Film</p>
+        <div class="v-author">NorrisFilms
+
+            <div class="channel-card">
+        <img src="stock/2.jpg" class="channel-icon-card"> 
+            <p class="channel-name-card">@ NorrisFilms</p>
+            <p class="sub-count-card">12M &#xB7; subscribers</p>
+            <p class="video-count">27 &#xB7; videos</p>
+            <button class="joinbutton">Join</button>
+            <button class="sub-button">Subscribe</button>
+
+        </div>
+        </div>
+          <p class="v-stat">1.4M views &#183; 23 Days Ago</p>
+           </div>
+       </div>
+                    
+         </div>
+
+           <!--VID 4............................... -->
+         <div class="vid-container">
+
+            <div class="containrr">
+            <img class="pht" src="stock/16.jpg" alt="">
+            <div class="video-time">31:10</div>
+        </div>
+                                                   
+            <div class="vid-grid">
+            <div class="channel-icon-container">
+               <img src="stock/4.jpg" class="channel-icon"> 
+               </div>
+                           
+               <div class="video-info">
+              <p class="video-title"> LO-FI Music | Relaxing LO-FI Instrumentals</p>
+               <div class="v-author">LO-FI Land
+
+                <div class="channel-card">
+        <img src="stock/4.jpg" class="channel-icon-card"> 
+            <p class="channel-name-card">@ LO-FI Land</p>
+            <p class="sub-count-card">84K &#xB7; subscribers</p>
+            <p class="video-count">13 &#xB7; videos</p>
+            <button class="joinbutton">Join</button>
+            <button class="sub-button">Subscribe</button>
+
+        </div>
+               </div>
+                 <p class="v-stat">11.1M views &#183; 3 years ago</p>
+                  </div>
+              </div>
+                           
+                </div>        
+                    
+                  <!--VID 5 ............................... -->
+
+
+      <div class="vid-container">
+
+        <div class="containrr">
+                    <img class="pht" src="stock/13.jpg" alt="">
+                    <div class="video-time">2:45</div> 
+                    </div>
+                                                           
+                    <div class="vid-grid">
+                    <div class="channel-icon-container">
+                       <img src="stock/5.jpg" class="channel-icon"> 
+                       </div>
+                                   
+                       <div class="video-info">
+                      <p class="video-title"> Here's What The First Week Of College Is REALLY Like... (College Freshman Advice)</p>
+                       <div class="v-author">TryYourBest
+
+                        <div class="channel-card">
+                            <img src="stock/5.jpg" class="channel-icon-card"> 
+                                <p class="channel-name-card">@ TryYourBest</p>
+                                <p class="sub-count-card">134K &#xB7; subscribers</p>
+                                <p class="video-count">29 &#xB7; videos</p>
+                                <button class="joinbutton">Join</button>
+                                <button class="sub-button">Subscribe</button>
+                    
+                            </div>
+                       </div>
+                         <p class="v-stat">149k views &#183; 2 weeks ago</p>
+                          </div>
+                      </div>
+                                   
+                        </div>
+
+                              <!--VID 6 ............................... -->
+
+        <div class="vid-container">
+
+            <div class="containrr">
+                            <img class="pht" src="stock/10.jpg" alt="">
+                            <div class="video-time">1:20:37</div>
+                                                           </div>        
+                            <div class="vid-grid">
+                            <div class="channel-icon-container">
+                               <img src="stock/6.jpg" class="channel-icon"> 
+                               </div>
+                                           
+                               <div class="video-info">
+                              <p class="video-title"> Out of Bounds - Lyric Video</p>
+                               <div class="v-author">NightMusic
+
+                                <div class="channel-card">
+        <img src="stock/6.jpg" class="channel-icon-card"> 
+            <p class="channel-name-card">@ NightMusic</p>
+            <p class="sub-count-card">24M &#xB7; subscribers</p>
+            <p class="video-count">96 &#xB7; videos</p>
+            <button class="joinbutton">Join</button>
+            <button class="sub-button">Subscribe</button>
+
+        </div>
+                               </div>
+                                 <p class="v-stat">80.2M views &#183; 3 weeks ago</p>
+                                  </div>
+                              </div>
+                                           
+                                </div>
+
+       </div>
+    </div>
+    
+</body>
+</html>
